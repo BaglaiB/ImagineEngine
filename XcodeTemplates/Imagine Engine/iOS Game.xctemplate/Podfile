@@ -2,5 +2,5 @@ platform :ios, '9.0'
 
 target '___PACKAGENAME___' do
   use_frameworks!
-  pod 'ImagineEngine'
+  pod 'ImagineEngine', git: "https://github.com/JohnSundell/ImagineEngine.git"
 end
